@@ -7,9 +7,9 @@ function Navbar({setInput}) {
     //  const naviga=useNavigate()
 
   return (
-    <div className='navbox'>
+    <div className='bg-amber-300'>
 
-      <input type="text"  onChange={(e)=>{setInput(e.target.value)}} className='search' />
+      <input type="text"  onChange={(e)=>{setInput(e.target.value)}} className='my-3 bg-white' />
       {/* <button onClick={()=>(naviga('/'))}>click</button> */}
     </div>
   )
